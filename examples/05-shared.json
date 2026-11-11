@@ -1,0 +1,22 @@
+{
+  "submission": {
+    "legal_name": "Cedar Logistics LLC",
+    "country": "US",
+    "tax_id": "98-7654321",
+    "email": "billing@cedar.example",
+    "address": "410 Market Street, Denver, CO 80202",
+    "bank": {
+      "account_holder": "Cedar Logistics LLC",
+      "routing_number": "021000021",
+      "account_number": "1234567890"
+    }
+  },
+  "documents": {
+    "tax": "Document type: tax\nLegal name: Cedar Logistics LLC\nCountry: US\nTax ID: 98-7654321",
+    "bank": "Document type: bank\nAccount holder: Cedar Logistics LLC\nRouting number: 021000021\nAccount number: 1234567890",
+    "compliance": "Document type: compliance\nLegal name: Cedar Logistics LLC\nSigned by: Alex Morgan\nValid until: 2099-12-31\nSanctions declared: no"
+  },
+  "name": "Shared account",
+  "description": "A different tax identity uses an already approved bank account.",
+  "expected": "rejected"
+}

@@ -1,0 +1,22 @@
+{
+  "submission": {
+    "legal_name": "Northstar Office Supply LLC",
+    "country": "US",
+    "tax_id": "12-3456789",
+    "email": "finance@northstar.example",
+    "address": "410 Market Street, Denver, CO 80202",
+    "bank": {
+      "account_holder": "Northstar Office Supply LLC",
+      "routing_number": "021000022",
+      "account_number": "1234567890"
+    }
+  },
+  "documents": {
+    "tax": "Document type: tax\nLegal name: Northstar Office Supply LLC\nCountry: US\nTax ID: 12-3456789",
+    "bank": "Document type: bank\nAccount holder: Northstar Office Supply LLC\nRouting number: 021000022\nAccount number: 1234567890",
+    "compliance": "Document type: compliance\nLegal name: Northstar Office Supply LLC\nSigned by: Alex Morgan\nValid until: 2099-12-31\nSanctions declared: no"
+  },
+  "name": "Invalid routing checksum",
+  "description": "A plausible-looking routing number fails the checksum.",
+  "expected": "pending"
+}
